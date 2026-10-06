@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  29 SEP 2026 17:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.22)  6 OCT 2026 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,32 +255,32 @@ Package: cite 2015/02/27  v 5.5
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count298
+) (clanok.aux
+Package babel Info: 'slovak' activates 'slovak' shorthands.
+(babel)             Reported on input line 11.
 )
-No file clanok.aux.
 \openout1 = `clanok.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-Package babel Info: 'slovak' activates 'slovak' shorthands.
-(babel)             Reported on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for IL2/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (C:\Users\jasin\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -307,75 +307,71 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 31.
+Package hyperref Info: Link coloring OFF on input line 33.
+ (clanok.out) (clanok.out)
 \@outlinefile=\write3
 \openout3 = `clanok.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 34.
+(Font)              <17.28> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
+(Font)              <12> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 34.
+(Font)              <8> on input line 38.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 34.
+(Font)              <6> on input line 38.
 LaTeX Font Info:    Trying to load font information for IL2+cmtt on input line 
-34.
- (C:\Users\jasin\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
+38.
+
+(C:\Users\jasin\AppData\Local\Programs\MiKTeX\tex/cslatex/base\il2cmtt.fd
 File: il2cmtt.fd 1997/08/20 CSLaTeX font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 38.
 
-LaTeX Warning: Reference `nejaka' on page 1 undefined on input line 46.
+Overfull \hbox (16.1118pt too wide) in paragraph at lines 47--48
+\IL2/cmr/m/n/10 Motivujte èi-ta-teµa a vy-svet-lite, o èom pí-¹ete. Úvod sa vä-
+è¹i-nou ne-delí na èasti.lubbim
+ []
 
-
-LaTeX Warning: Reference `dolezita' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Reference `dolezitejsia' on page 1 undefined on input line 47.
-
-
-LaTeX Warning: Reference `zaver' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Reference `f:rozhod' on page 1 undefined on input line 54.
-
-<grafika.pdf, id=3, 160.6pt x 80.3pt>
+<grafika.pdf, id=40, 160.6pt x 80.3pt>
 File: grafika.pdf Graphic file (type pdf)
 <use grafika.pdf>
-Package pdftex.def Info: grafika.pdf  used on input line 64.
+Package pdftex.def Info: grafika.pdf  used on input line 68.
 (pdftex.def)             Requested size: 207.0021pt x 103.50409pt.
-
-LaTeX Warning: Reference `ina:nejake' on page 1 undefined on input line 68.
-
-
-LaTeX Warning: Reference `ina:nejake' on page 1 undefined on input line 68.
-
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 68.
+(Font)              <7> on input line 72.
 [1
 
 {C:/Users/jasin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./grafika.pd
 f>]
 
-LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 70.
+LaTeX Warning: Citation `Coplien:MPD' on page 2 undefined on input line 74.
 
 
-LaTeX Warning: Citation `Czarnecki:Staged' on page 2 undefined on input line 70
+LaTeX Warning: Citation `Czarnecki:Staged' on page 2 undefined on input line 74
 .
 
 
 LaTeX Warning: Citation `Czarnecki:Progress' on page 2 undefined on input line 
-70.
+74.
 
 
-LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 70.
+LaTeX Warning: Citation `PLP-Framework' on page 2 undefined on input line 74.
 
+File: grafika.pdf Graphic file (type pdf)
+<use grafika.pdf>
+Package pdftex.def Info: grafika.pdf  used on input line 81.
+(pdftex.def)             Requested size: 155.24895pt x 77.62622pt.
+<diagram2.pdf, id=67, 120.45pt x 150.5625pt>
+File: diagram2.pdf Graphic file (type pdf)
+<use diagram2.pdf>
+Package pdftex.def Info: diagram2.pdf  used on input line 83.
+(pdftex.def)             Requested size: 155.24895pt x 194.07938pt.
 No file clanok.bbl.
 Package babel Info: 'slovak' activates 'slovak' shorthands.
-(babel)             Reported on input line 125.
-[2] (clanok.aux)
+(babel)             Reported on input line 138.
+[2 <./diagram2.pdf>] [3] (clanok.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -387,20 +383,14 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `clanok.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `clanok.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  DCA731DA2FC82593BB099E907EB500F3;982.
+Package rerunfilecheck Info: File `clanok.out' has not changed.
+(rerunfilecheck)             Checksum: DCA731DA2FC82593BB099E907EB500F3;982.
  ) 
 Here is how much of TeX's memory you used:
- 10197 strings out of 467871
- 160808 string characters out of 5418376
- 583452 words of memory out of 5000000
- 38950 multiletter control sequences out of 15000+600000
+ 10226 strings out of 467871
+ 161333 string characters out of 5418376
+ 583902 words of memory out of 5000000
+ 38971 multiletter control sequences out of 15000+600000
  641059 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,79p,377b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -409,12 +399,12 @@ sr6.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1000.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfon
 ts/dpi600\csbx12.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/publi
 c/csfonts/dpi600\csti10.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfou
-r/public/csfonts/dpi600\csr7.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/
-ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fo
-nts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\jasin\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\jasin\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt10.pk> <C:\Users\jasin\AppDa
-ta\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx10.pk> <C:\Users\jasi
+r/public/csfonts/dpi600\csbx10.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/p
+k/ljfour/public/csfonts/dpi600\csr7.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fo
+nts/pk/ljfour/public/csfonts/dpi600\cssl10.pk> <C:\Users\jasin\AppData\Local\Mi
+KTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr8.pk> <C:\Users\jasin\AppData\Loc
+al\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\jasin\AppDa
+ta\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\cstt10.pk> <C:\Users\jasi
 n\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csr10.pk> <C:\User
 s\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi720\csbx12.pk> <
 C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csfonts/dpi600\csbx9
@@ -424,9 +414,9 @@ dpi600\csr9.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/public/csf
 onts/dpi600\csr12.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfour/jkna
 ppen/ec/dpi600\tcrm1200.pk> <C:\Users\jasin\AppData\Local\MiKTeX\fonts/pk/ljfou
 r/public/csfonts/dpi600\csr17.pk>
-Output written on clanok.pdf (2 pages, 110346 bytes).
+Output written on clanok.pdf (3 pages, 123831 bytes).
 PDF statistics:
- 392 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 458 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 75 words of extra memory for PDF output out of 10000 (max. 10000000)
 
