@@ -1,145 +1,185 @@
-% Metódy inžinierskej práce
-
 \documentclass[10pt,twocolumn,twoside,slovak,a4paper]{article}
 
 \usepackage[slovak]{babel}
-%\usepackage[T1]{fontenc}
-\usepackage[IL2]{fontenc} % lepšia sadzba písmena Ľ než v T1
+\usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage{graphicx}
-\usepackage{url} % príkaz \url na formátovanie URL
-\usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
-\usepackage{graphicx}
 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{wrapfig}
+\usepackage{url}
+\usepackage{hyperref}
 \usepackage{cite}
-%\usepackage{times}
 
-
-
-\pagestyle{headings}
-
-\title{Názov\thanks{Semestrálny projekt v predmete Metódy inžinierskej práce, ak. rok 2015/16, vedenie: Meno Priezvisko}} % meno a priezvisko vyučujúceho na cvičeniach
-
-\author{Tobias Geci,Maxo, Yasin, Sebo\\[2pt]
-	{\small Slovenská technická univerzita v Bratislave}\\
-	{\small Fakulta informatiky a informačných technológií}\\
-	{\small \texttt{xcikkel@stuba.sk}}
-	}
-
-\date{\small 29. september 2026} % upravte
-
-
+\title{Prehľadový článok}
+\author{Yasin Cikkel}
+\date{6. október 2026}
 
 \begin{document}
-
-
 
 \maketitle
 
 \begin{abstract}
-\ldots
+Toto je predbežná verzia prehľadového článku.
+Dokument obsahuje ukážky práce s diagramami, obrázkami,
+zoznamami a matematickými výrazmi v prostredí LaTeX.
 \end{abstract}
 
 
-
 \section{Úvod}
+\label{uvod}
 
-Motivujte čitateľa a vysvetlite, o čom píšete. Úvod sa väčšinou nedelí na časti.lubbim ninka
-
-Uveďte explicitne štruktúru článku. Tu je nejaký príklad.
-Základný problém, ktorý bol naznačený v úvode, je podrobnejšie vysvetlený v časti~\ref{nejaka}.
-Dôležité súvislosti sú uvedené v častiach~\ref{dolezita} a~\ref{dolezitejsia}.
-Záverečné poznámky prináša časť~\ref{zaver}.
+Táto časť predstavuje úvod do problematiky.
+Cieľom článku je ukázať základnú štruktúru dokumentu
+a možnosti práce s rôznymi prvkami v LaTeXu.
 
 
+\section{Logo FIIT STU}
+\label{logo}
 
-\section{Nejaká časť} \label{nejaka}
+\begin{wrapfigure}{r}{0.22\textwidth}
+    \centering
+    \includegraphics[width=0.20\textwidth]{images.png}
+\end{wrapfigure}
 
-Z obr.~\ref{f:rozhod} je všetko jasné. 
+Logo FIIT STU je vložené ako plávajúci obrázok.
+Text ho obteká z ľavej strany. Takýmto spôsobom možno vhodne
+umiestniť logo alebo iný menší obrázok priamo do textu bez toho,
+aby sa prerušil tok dokumentu. Text pokračuje ďalej vedľa obrázka,
+a po skončení jeho výšky sa opäť rozšíri na celú šírku stĺpca.
 
-\begin{figure*}[tbh]
-\centering
-%\includegraphics[scale=1.0]{diagram.pdf}
-Aj text môže byť prezentovaný ako obrázok. Stane sa z neho označný plávajúci objekt. Po vytvorení diagramu zrušte znak \texttt{\%} pred príkazom \verb|\includegraphics| označte tento riadok ako komentár (tiež pomocou znaku \texttt{\%}).
-\caption{Rozhodujúci argument.}
-\label{f:rozhod}
-\end{figure*}
 
-\includegraphics[width=0.6\textwidth]{grafika.pdf}
+\section{Iná časť}
+\label{ina}
+
+Základným problémom je teda\ldots{}
+Najprv sa pozrieme na nejaké vysvetlenie
+(časť~\ref{ina:nejake}) a potom na ďalšie vysvetlenie
+(časť~\ref{ina:este}).
+
+\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
+
+Môže sa zdať, že problém vlastne nejestvuje~\cite{Coplien:MPD},
+ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged,Czarnecki:Progress}.
+
+Dôležité veci možno \emph{zdôrazniť kurzívou}.
+
+
+\subsection{Nejaké vysvetlenie}
+\label{ina:nejake}
+
+Nasledujúce dva diagramy sú zobrazené vedľa seba:
 
 \begin{figure*}[t]
     \centering
-    \includegraphics[width=0.8\textwidth]{grafika.pdf}
-    \caption{Diagram cez oba stĺpce}
+
+    \begin{minipage}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{grafika.pdf}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{diagram2.pdf}
+    \end{minipage}
+
+    \caption{Dva diagramy vedľa seba}
+    \label{fig:dva_diagramy}
+\end{figure*}
+
+
+\section{Obrázok cez oba stĺpce}
+\label{obrazok_cez_stlpce}
+
+Nasledujúci obrázok je vložený cez oba stĺpce dvojstĺpcového dokumentu.
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.80\textwidth]{grafika.pdf}
+    \caption{Obrázok zobrazený cez oba stĺpce}
     \label{fig:cez_obidva_stlpce}
 \end{figure*}
 
-\section{Iná časť} \label{ina}
 
-Základným problémom je teda\ldots{} Najprv sa pozrieme na nejaké vysvetlenie (časť~\ref{ina:nejake}), a potom na ešte nejaké (časť~\ref{ina:nejake}).\footnote{Niekedy môžete potrebovať aj poznámku pod čiarou.}
-
-Môže sa zdať, že problém vlastne nejestvuje\cite{Coplien:MPD}, ale bolo dokázané, že to tak nie je~\cite{Czarnecki:Staged, Czarnecki:Progress}. Napriek tomu, aj dnes na webe narazíme na všelijaké pochybné názory\cite{PLP-Framework}. Dôležité veci možno \emph{zdôrazniť kurzívou}.
-
-
-\subsection{Nejaké vysvetlenie} \label{ina:nejake}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.45\textwidth]{grafika.pdf}
-    \hfill
-    \includegraphics[width=0.45\textwidth]{diagram2.pdf}
-    \caption{Dva diagramy vedľa seba}
-    \label{fig:dva_diagramy}
-\end{figure}
+\subsection{Zoznam}
+\label{zoznam}
 
 Niekedy treba uviesť zoznam:
 
 \begin{itemize}
-\item jedna vec
-\item druhá vec
-	\begin{itemize}
-	\item x
-	\item y
-	\end{itemize}
+    \item jedna vec
+    \item druhá vec
+    \begin{itemize}
+        \item x
+        \item y
+    \end{itemize}
 \end{itemize}
 
 Ten istý zoznam, len číslovaný:
 
 \begin{enumerate}
-\item jedna vec
-\item druhá vec
-	\begin{enumerate}
-	\item x
-	\item y
-	\end{enumerate}
+    \item jedna vec
+    \item druhá vec
+    \begin{enumerate}
+        \item x
+        \item y
+    \end{enumerate}
 \end{enumerate}
 
 
-\subsection{Ešte nejaké vysvetlenie} \label{ina:este}
+\subsection{Ešte nejaké vysvetlenie}
+\label{ina:este}
 
 \paragraph{Veľmi dôležitá poznámka.}
-Niekedy je potrebné nadpisom označiť odsek. Text pokračuje hneď za nadpisom.
+Niekedy je potrebné nadpisom označiť odsek.
+Text pokračuje hneď za nadpisom.
 
 
+\section{Matematická ukážka}
+\label{matematika}
 
-\section{Dôležitá časť} \label{dolezita}
+Nasledujúca matica má rozmery $5 \times 4$:
+
+\[
+A =
+\begin{pmatrix}
+1 & 2 & 3 & 4 \\
+5 & 6 & 7 & 8 \\
+9 & 10 & 11 & 12 \\
+13 & 14 & 15 & 16 \\
+17 & 18 & 19 & 20
+\end{pmatrix}
+\]
+
+Ukážka dlhšieho matematického výrazu:
+
+\[
+a_n =
+a_1 + (n-1)d
++ \frac{n(n-1)}{2}
++ \frac{n(n-1)(2n-1)}{6}
+\]
 
 
+\section{Dôležitá časť}
+\label{dolezita}
+
+Sem môžete doplniť obsah dôležitej časti článku.
 
 
-\section{Ešte dôležitejšia časť} \label{dolezitejsia}
+\section{Ešte dôležitejšia časť}
+\label{dolezitejsia}
+
+Sem môžete doplniť obsah ďalšej dôležitej časti článku.
 
 
+\section{Záver}
+\label{zaver}
+
+V závere stručne zhrňte hlavné poznatky článku.
 
 
-\section{Záver} \label{zaver} % prípadne iný variant názvu
-
-
-
-%\acknowledgement{Ak niekomu chcete poďakovať\ldots}
-
-
-% týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
+\bibliographystyle{plain}
 \bibliography{literatura}
-\bibliographystyle{plain} % prípadne alpha, abbrv alebo hociktorý iný
+
 \end{document}
